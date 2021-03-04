@@ -1,5 +1,3 @@
-console.log('Loading the calculator function');
-
 exports.handler = function(event, context, callback) {
     console.log('Received event:', JSON.stringify(event, null, 2));
     if (event.a === undefined || event.b === undefined || event.op === undefined) {
